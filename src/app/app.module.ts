@@ -13,7 +13,8 @@ import { HeaderComponent } from './components/templates/header/header.component'
 import { NavComponent } from './components/templates/nav/nav.component'
 import { FooterComponent } from './components/templates/footer/footer.component'
 import { HomeComponent } from './views/home/home.component';
-import { ProductCrudComponent } from './views/product-crud/product-crud.component'
+import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component'
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
     FooterComponent,
     NavComponent,
     HomeComponent,
-    ProductCrudComponent
+    ProductCrudComponent,
+    ProductCreateComponent
   ],
   imports: [
     BrowserModule,
